@@ -16,3 +16,6 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn clean install
 mvn spring-boot:run
+
+## Results
+![alt text](https://github.com/Bhavit1008/first-and-third-quartiles/blob/master/images/Capture.PNG)
