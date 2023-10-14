@@ -4,7 +4,7 @@
 
 For building and running the application you need:
 
-- [JDK 11][(http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](https://www.oracle.com/java/technologies/downloads/#java11))
+- [JDK 11][(https://www.oracle.com/java/technologies/downloads/#java11))
 - [Maven 3](https://maven.apache.org)
 
 ## Results
