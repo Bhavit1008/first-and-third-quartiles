@@ -1,4 +1,4 @@
-# first-and-third-quartiles
+# Five number summary and Quartiles.
 This project comprises of:
   1. First and Third Quartiles.
   2. Five numbers summary.
