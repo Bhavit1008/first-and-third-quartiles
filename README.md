@@ -1,4 +1,7 @@
 # first-and-third-quartiles
+This project comprises of:
+  1. First and Third Quartiles.
+  2. Five numbers summary.
 
 ## Requirements
 
