@@ -9,6 +9,7 @@ For building and running the application you need:
 
 ## Results
 ![Capture](https://github.com/Bhavit1008/first-and-third-quartiles/assets/45086257/0f76e60d-a7d7-4f06-9aa6-cd05f05576e8)
+![FiveNoSummary](https://github.com/Bhavit1008/first-and-third-quartiles/assets/45086257/7e7c9a6b-50e9-4356-aa37-fc15d81824c2)
 
 ## Running the application locally
 
