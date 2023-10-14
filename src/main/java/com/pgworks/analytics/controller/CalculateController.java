@@ -40,4 +40,31 @@ public class CalculateController {
         map.put("quartile",quartileMap);
         return map;
     }
+
+    @GetMapping("/fiveNoSummary")
+    public Map<Object,Object> calculateTheFiveNoSummary(@RequestBody ThirdQuartileRequest quartileRequest){
+        Map<Object,Object> map = new HashMap<>();
+        int Q1=0;
+        int Q2=0;
+        float median = 0;
+        int min = 0;
+        int max = 0;
+        List<Integer> arr = new ArrayList<>();
+        Map<Object,Object> quartileMap = new HashMap<>();
+        if(quartileRequest!=null && quartileRequest.getArray().size()!=0){
+            arr = quartileRequest.getArray();
+
+            //sorting the given list in increasing order
+            arr = calculateQuartileService.sortRequestArray(arr);
+            median = calculateQuartileService.calculateMedian(arr);
+            quartileMap =  calculateQuartileService.calculateFirstQuartile(arr);
+            min = arr.get(0);
+            max = arr.get(arr.size()-1);
+        }
+        map.put("minimu",min);
+        map.put("maximum",max);
+        map.put("median",median);
+        map.put("quartile",quartileMap);
+        return map;
+    }
 }
